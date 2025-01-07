@@ -1,0 +1,187 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav id="navbar">
+        <header>Table Of Contents</header>
+        <ul>
+            <li><a class="nav-link" href="#Artificial_Intelligence">Artificial Intelligence</a></li>
+            <li><a class="nav-link" href="#Types_of_Artificial_Intelligence">Types of Artificial Intelligence</a></li>
+            <li><a class="nav-link" href="#Core_Components_of_AI">Core Components of AI</a></li>
+            <li><a class="nav-link" href="#Applications_of_AI">Applications of AI</a></li>
+            <li><a class="nav-link" href="#Ethics_and_Challenges">Ethics and Challenges</a></li>
+            <li><a class="nav-link" href="#Future_of_AI">Future of AI</a></li>
+        </ul>
+    </nav>   
+    
+    <!-- Main Content -->
+    <main id="main-doc">
+        <h1>Introduction to Artificial Intelligence (AI)</h1>
+
+        <section class="main-section" id="Artificial_Intelligence">
+            <header>Artificial Intelligence</header>
+            <p>Artificial Intelligence (AI) refers to the simulation of human intelligence in machines programmed to think and act like humans.</p>
+            <p>AI has been used in various fields, from virtual assistants like Siri and Alexa to advanced robotics in manufacturing.</p>
+            <ul>
+                <li><code>Automation:</code> AI automates repetitive tasks, improving efficiency.</li>
+                <li><code>Adaptivity:</code> Systems improve over time through learning.</li>
+                <li><code>Scalability:</code> AI processes large datasets quickly and effectively.</li>
+                <li><code>Interactivity:</code> AI powers applications like chatbots to enhance user experiences.</li>
+                <li><code>Reasoning:</code> Algorithms like <code>minimax</code> simulate logical decision-making.</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Types_of_Artificial_Intelligence">
+            <header>Types of Artificial Intelligence</header>
+            <p><strong>Narrow AI:</strong> Focused on specific tasks (e.g., chatbots, recommendation systems).</p>
+            <p><strong>General AI:</strong> Aims to perform any intellectual task humans can do, but it’s still theoretical.</p>
+        </section>
+
+        <section class="main-section" id="Core_Components_of_AI">
+            <header>Core Components of AI</header>
+            <p><strong>Machine Learning (ML):</strong> Algorithms that enable systems to learn from data and improve over time. AI systems learn patterns from data using algorithms like <code>linear regression</code> or <code>decision trees</code>.</p>
+            <p><strong>Natural Language Processing (NLP):</strong> Helps computers understand and respond to human language. AI enables machines to understand human language. A popular library is <code>spaCy</code>.</p>
+        </section>
+
+        <section class="main-section" id="Applications_of_AI">
+            <header>Applications of AI</header>
+            <p>In Healthcare, AI is used for diagnosis, treatment planning, and drug discovery.</p>
+            <p>In Finance, AI powers fraud detection, credit scoring, and algorithmic trading. AI systems can analyze images using tools like <code>OpenCV</code> or <code>TensorFlow</code>.</p>
+        </section>
+
+        <section class="main-section" id="Ethics_and_Challenges">
+            <header>Ethics and Challenges</header>
+            <p>AI systems can exhibit bias based on the training data, leading to unfair outcomes.</p>
+            <p>Privacy concerns arise when personal data is used without consent in AI applications.</p>
+        </section>
+
+        <section class="main-section" id="Future_of_AI">
+            <header>Future of AI</header>
+            <p>AI is expected to enhance predictive analytics, benefiting industries like healthcare and weather forecasting.</p>
+            <p>Researchers are exploring AI’s role in combating climate change, optimizing resource use, and finding sustainable solutions.</p>
+        </section>
+    </main>
+    
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: linear-gradient(135deg, #f3f4f7, #dcdde1);
+}
+
+/* Navbar Styles */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+
+#navbar header {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+#navbar ul li {
+  margin: 15px 0;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  transition: 0.3s;
+}
+
+#navbar ul li a:hover {
+  color: #00bcd4;
+  font-weight: bold;
+}
+
+/* Main Content */
+#main-doc {
+  margin-left: 270px;
+  padding: 20px;
+}
+
+.main-section {
+  margin-bottom: 30px;
+}
+
+.main-section header {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #00bcd4;
+  padding-bottom: 5px;
+}
+
+p, ul {
+  margin: 10px 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+code {
+  background-color: #f4f4f4;
+  color: #c7254e;
+  padding: 3px 5px;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
+}
+
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 768px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-shadow: none;
+  }
+
+  #navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
+
+** end of undefined **
+
