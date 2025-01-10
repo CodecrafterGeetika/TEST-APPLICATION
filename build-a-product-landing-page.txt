@@ -1,0 +1,193 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header id="header">
+    <img id="header-img" src="https://via.placeholder.com/300x100" alt="Product Logo">
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#video-section">How It Works</a></li>
+        <li><a class="nav-link" href="#form-section">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2>Features</h2>
+    <p>Discover the amazing features of our product:</p>
+    <ul>
+      <li>Feature 1: High Performance</li>
+      <li>Feature 2: Easy to Use</li>
+      <li>Feature 3: Affordable Pricing</li>
+    </ul>
+  </section>
+
+  <!-- Video Section -->
+  <section id="video-section">
+    <h2>How It Works</h2>
+    <iframe id="video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Product Demo" allowfullscreen></iframe>
+  </section>
+
+  <!-- Form Section -->
+  <section id="form-section">
+    <h2>Sign Up for Updates</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label for="email">Email:</label>
+      <input id="email" type="email" name="email" placeholder="Enter your email" required>
+      <input id="submit" type="submit" value="Subscribe">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p>© 2024 Product Landing Page. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#header-img {
+  max-width: 150px;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#nav-bar ul li {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #ff6347;
+}
+
+/* Features Section */
+#features {
+  margin-top: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+#features ul {
+  list-style-type: square;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+  padding: 0;
+}
+
+/* Video Section */
+#video-section {
+  padding: 20px;
+  text-align: center;
+}
+
+#video {
+  width: 80%;
+  max-width: 600px;
+  height: 300px;
+  border: none;
+}
+
+/* Form Section */
+#form-section {
+  padding: 20px;
+  text-align: center;
+}
+
+#form {
+  max-width: 400px;
+  margin: auto;
+}
+
+#email {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#submit {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #ff6347;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  #nav-bar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #nav-bar ul li {
+    margin: 10px 0;
+  }
+
+  #video {
+    width: 100%;
+  }
+}
+
+** end of undefined **
+
